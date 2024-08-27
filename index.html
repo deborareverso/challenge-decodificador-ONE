@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Debora Reverso">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+    <header>
+        <img class="logoalura" src="/imagens/logoalura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite sua mensagem"></textarea>
+
+            <div class="informacao">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="btn-codificar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-decodificar" onclick="btnDesencriptar()">Descriptografar</button>
+
+            </div>
+
+            <footer>
+
+            <p> &copy; 2024 Debora Reverso </p>
+        
+            </footer>
+
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+
+            <div>
+                <div id="cobrir" class="output_cobrir">
+                    <img class="output_img" src="./imagens/jtconfused.gif" alt="">
+                    <p class="output_saida1">Nenhuma mensagem encontrada!</p>
+                    <p class="output_saida2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+
+
+            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+            
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src= "sweetalert2.js"></script>
+
+
+
+</body>
+
+</html>

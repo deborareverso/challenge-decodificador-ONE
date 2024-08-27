@@ -1,0 +1,214 @@
+* {
+    background: white;
+    font-family: "Inter", sans-serif;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    width: auto;
+    height: auto;
+
+}
+
+.logoalura {
+
+    width: Hug (120px)px;
+    height: Hug (48px)px;
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+
+
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.text-area {
+    border-radius: 20px 20px 20px 20px;
+    color: #0A3871;
+    margin-top: -19px;
+    text-transform: lowercase;
+    padding-left: 15px;
+    width: 680px;
+    height: 288px;
+    top: 0px;
+    left: 240px;
+    gap: 40px;
+    opacity: 0px;
+
+}
+
+h6 {
+    font-size: 16px;
+    margin-top: 160px;
+    margin-left: 12px;
+
+}
+
+.informacao {
+
+    background-image: url(/imagens/bi_exclamation-circle-fill.png);
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    color: #495e57;
+    width: 600px;
+    height: 10px;
+    opacity: 80%;
+    margin-left: 10px;
+    
+
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.text-area:focus {
+
+    outline: none;
+}
+
+.mensagem {
+   
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    width: 400px;
+    height: 600px;
+    top: 30px;
+    left: 750px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    color: #0A3871;
+    opacity: 0px;
+
+}
+
+
+
+.mensagem:focus {
+    outline: none;
+}
+
+.output_cobrir {
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 70px;
+    width: 320px;
+    height: 450px;
+    padding-left: 55px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+
+}
+
+.output_saida1 {
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    color: #0A3871;
+    font-weight: 300px;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    width: 320px;
+
+}
+
+.output_saida2 {
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    color: #0f5cba;
+    font-weight: 300px;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    margin-top: auto;
+    padding-bottom: 70px;
+    width: 320px;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 6px;
+    justify-content: center;
+    width: Fixed (680px)px;
+    height: Hug (67px)px;
+    top: 885px;
+    left: 240px;
+    gap: 5px;
+    opacity: 0px;
+}
+
+.btn-decodificar {
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 15px;
+    width: 340px;
+
+}
+
+.btn-codificar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 340px;
+
+}
+
+.btn-copiar {
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 485px;
+    position: absolute;
+    width: 336px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 160px;
+    margin-left: 12px;
+
+
+    
+}
+
+footer {
+
+    
+    display: flex;
+    position: center;
+    margin-left: 250px;
+    margin-top: -150px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(89, 145, 247);
+    
+
+}
